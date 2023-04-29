@@ -109,6 +109,7 @@ const App = () => {
         </Content>
         <Footer style={{ right: 0 }}>
           <Button
+            size="large"
             style={{
               borderColor: "#1161D6",
               color: "#1161D6",
@@ -117,7 +118,7 @@ const App = () => {
           >
             Upload Clients
           </Button>
-          <Button type="primary" style={{ background: "#1161D6" }}>
+          <Button type="primary" size="large" style={{ background: "#1161D6" }}>
             Add Client
           </Button>
         </Footer>

@@ -73,11 +73,13 @@ const columns = [
     title: "GSTIN/Tax ID",
     dataIndex: "gstin",
     editable: true,
+    render: (gstin) => <p>{gstin ? gstin : "-"}</p>,
   },
   {
     title: "PAN",
     dataIndex: "pan",
     editable: true,
+    render: (pan) => <p>{pan ? pan : "-"}</p>,
   },
   {
     title: "Country",

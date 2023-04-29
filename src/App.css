@@ -1,7 +1,7 @@
 .logo-img {
   width: 150px;
   height: 18px;
-  margin: 30px 20px;
+  margin: 40px 20px 20px 20px;
 }
 
 .entity {
@@ -55,4 +55,8 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+}
+
+.ant-layout-footer button {
+  width: 180px;
 }
